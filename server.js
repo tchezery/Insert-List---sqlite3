@@ -17,7 +17,7 @@ async function connectionDB() {
         //Create a constant "db" to use the function "open"
         const db = await open({
             //Inform address of the database
-            filename: 'banco.db',
+            filename: './banco.db',
             //Translate the information to the database
             driver: sqlite3.Database
         });
